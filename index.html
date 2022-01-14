@@ -6,22 +6,30 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+            text-decoration-color: darkslategray;
+        }
         .wrapper{
+            margin: 10px auto;
             border: 4px double black;
-            min-height: 80vh;
-            width: 60vh;
+            min-height: 50vh;
+            width: 100vh;
+            
         }
     </style>
-    <title>Document</title>
+    <title>Websocket</title>
 </head>
 <body>
+    <h1>News</h1>
     <div class="wrapper" >
-        <p id="p">
-
-        </p>
+        <p id="p"></p>
 
     </div>
-    <button onClick = "sndMsg()">Send</button>
     <script src="main.js"></script>
 
 </body>
